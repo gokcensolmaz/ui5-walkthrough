@@ -1,12 +1,13 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
 
-],function(Controller){
+], function (Controller, MessageToast) {
     "use strict"
-    return Controller.extend("sap.ui.demo.walkthrough.controller",{
-        onShowHello: function (){
+    return Controller.extend("sap.ui.demo.walkthrough.controller", {
+        onShowHello: function () {
             // Show a native or vanailla JS alert
-            alert("Hello There!");
+            MessageToast.show("Hello you")
         }
     });
 });
