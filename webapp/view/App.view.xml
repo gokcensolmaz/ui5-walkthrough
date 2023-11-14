@@ -1,0 +1,6 @@
+<View 
+    xmlns ="sap.m" 
+    xmlns:mv ="sap.ui.core.mvc">
+	<Text text="Hello UI5 Again!">
+	</Text>
+</View>
